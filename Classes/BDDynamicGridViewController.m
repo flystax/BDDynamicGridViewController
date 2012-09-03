@@ -116,7 +116,7 @@
     for (BDRowInfo* rowInfo in _rowInfos) {
         result = [result arrayByAddingObject:[rowInfo copy]];
     }
-    return _rowInfos;
+    return result;
 }
 
 - (NSArray *)visibleRowInfos
